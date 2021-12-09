@@ -1,8 +1,8 @@
 import React from 'react'
 
-
-        return (
-            <div className="row">
+const MovieList = () => {
+    return (
+        <div className="row">
 
                 {props.movies.map((movie) => (
                     <div className="col-lg-4" key={movie.id}>
@@ -22,7 +22,7 @@ import React from 'react'
 
 
             </div>
-        )
-
+    )
+}
 
 export default MovieList
